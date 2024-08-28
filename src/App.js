@@ -8,6 +8,7 @@ import Classes from "./components/Classes.js";
 import Resume from "./components/Resume.js";
 import Contact from "./components/Contact.js";
 import "./styles/app.css";
+import PersonalStats from './components/PersonalStats.js';
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <PersonalStats />
     </Router>
   );
 };
