@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {Link, useLocation} from "react-router-dom";
 import "../styles/nav.css";
 import spy from "../assets/spy.png";
@@ -58,10 +58,28 @@ export default function Nav() {
         return (
             <Link to={to} className={linkClass}>
                 <img src={imgSrc} alt={altText} />
-                {isCurrent && <h1 className="page-title"> {pageTitle} </h1>}
+                {isCurrent && <h1 className="page-title">{pageTitle}</h1>}
             </Link>
         );
     };
+
+    // Effect to center each nav item
+    useEffect(() => {
+        // Only apply effect for larger screens:
+        if (window.innerWidth > 1100) {
+            const navElement = document.querySelector('.nav');
+            const activeLink = document.querySelector('.nav-link.current');
+            if (navElement && activeLink) {
+                const navRect = navElement.getBoundingClientRect();
+                const linkRect = activeLink.getBoundingClientRect();
+                // Adjust center alignment with a manual left shift if need in translateX:
+                const centerOffset = (navRect.width / 2) - (linkRect.width / 2);
+                const translateX = (navRect.left + centerOffset - linkRect.left) - 160;
+
+                navElement.style.transform = `translateX(${translateX}px)`;
+            }
+        }
+    }, [location]);
 
     return (
         <nav className={'nav ${navPositionClass}'}>
@@ -72,4 +90,4 @@ export default function Nav() {
             {renderNavLink( "/contact", envelope, "envelope icon", "nav-contact" )}
         </nav>
     );
-};
+}
