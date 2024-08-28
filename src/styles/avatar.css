@@ -5,7 +5,8 @@
 }
 
 .avatar.about {
-    height: 89vh;
+    height: 92vh;
+    width: 80vh;
     bottom: -8vh;
     left: 50%;
     transform: translateX(-50%);
