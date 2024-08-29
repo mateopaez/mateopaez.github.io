@@ -12,6 +12,7 @@
     height: 3.7rem;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     cursor: pointer;
 }
 
@@ -90,7 +91,7 @@
 }
 
 .icon {
-    width: 4rem;
+    width: 3rem;
     height: 3rem;
 }
 

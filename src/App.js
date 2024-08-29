@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from "./components/Nav.js";
 import Background from './components/Background.js';
 import About from "./components/About/About.js";
-import Skills from "./components/Skills.js";
+import Skills from "./components/Skills/Skills.js";
 import Classes from "./components/Classes.js";
 import Resume from "./components/Resume.js";
 import Contact from "./components/Contact.js";

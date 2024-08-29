@@ -13,9 +13,10 @@
 }
 
 .avatar.skills {
-    height: 190vh;
-    bottom: -110vh;
-    left: -1.5rem;
+    height: 140vh;
+    width: 120vh;
+    bottom: -60vh;
+    left: -3rem;
     transform: translateX(0%) scaleX(-1);
 }
 
@@ -33,7 +34,7 @@
 }
 
 @media (max-width: 1100px) {
-    .avatar.about {
+    .avatar.skills {
         z-index: -5;    /* want shadow in front now */
         height: 95vh;
         bottom: -15vh;

@@ -28,7 +28,6 @@ export default class AboutMenu extends Component {
     });
   };
 
-
   render() {
     const { activeMenuItem, activeSubheading }= this.state;
     const menuItems = ["PERSONAL", "EDUCATION", "CAREER"];
