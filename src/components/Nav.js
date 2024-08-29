@@ -16,8 +16,8 @@ export default function Nav() {
                 return "nav-about";
             case "/skills": 
                 return "nav-skills";
-            case "/classes": 
-                return "nav-classes";
+            case "/projects": 
+                return "nav-projects";
             case "/resume": 
                 return "nav-resume";
             case "/contact": 
@@ -33,8 +33,8 @@ export default function Nav() {
                 return "ABOUT";
             case "/skills": 
                 return "SKILLS";
-            case "/classes": 
-                return "CLASSES";
+            case "/projects": 
+                return "PROJECTS";
             case "/resume": 
                 return "RESUME";
             case "/contact": 
@@ -82,10 +82,10 @@ export default function Nav() {
     }, [location]);
 
     return (
-        <nav className={'nav ${navPositionClass}'}>
+        <nav className={`nav ${navPositionClass}`}>
             {renderNavLink( "/", spy, "spy icon", "nav-about" )}
             {renderNavLink( "/skills", histogram, "histogram icon", "nav-skills" )}
-            {renderNavLink( "/classes", stack, "stack icon", "nav-classes" )}
+            {renderNavLink( "/projects", stack, "stack icon", "nav-projects" )}
             {renderNavLink( "/resume", files, "files icon", "nav-resume" )}
             {renderNavLink( "/contact", envelope, "envelope icon", "nav-contact" )}
         </nav>
