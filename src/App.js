@@ -4,7 +4,7 @@ import Nav from "./components/Nav.js";
 import Background from './components/Background.js';
 import About from "./components/About/About.js";
 import Skills from "./components/Skills/Skills.js";
-import Projects from "./components/Projects.js";
+import Projects from "./components/Projects/Projects.js";
 import Resume from "./components/Resume.js";
 import Contact from "./components/Contact.js";
 import "./styles/app.css";
