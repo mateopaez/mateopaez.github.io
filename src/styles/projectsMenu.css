@@ -12,7 +12,7 @@
     display: flex;
     position: relative;
     width: 40%;
-    margin-top: 12rem;
+    margin-top: 8rem;
     align-items: flex-end;
   }
   
@@ -39,10 +39,10 @@
     background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
   }
   .project-item.activeProject:nth-child(2) {
-    background: linear-gradient(270deg, #ffffff00, var(--blue) 70%);
+    background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
   }
   .project-item.activeProject:nth-child(3) {
-    background: linear-gradient(270deg, #ffffff00, var(--green) 70%);
+    background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
   }
   
   .project-sub-container {
@@ -97,6 +97,7 @@
       font-size: 0.8rem;
     }
   }
+  
   @media (max-width: 700px) {
     .project-menu {
       width: 28rem;

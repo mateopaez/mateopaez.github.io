@@ -44,11 +44,11 @@
     border-radius: var(--radius-right);
 }
 .item.active:nth-child(2) {
-    background: linear-gradient(90deg, var(--transparent), var(--blue) 70%);
+    background: linear-gradient(90deg, var(--transparent), var(--purple) 70%);
     border-radius: var(--radius-right);
 }
 .item.active:nth-child(3) {
-    background: linear-gradient(90deg, var(--transparent), var(--green) 70%);
+    background: linear-gradient(90deg, var(--transparent), var(--purple) 70%);
     border-radius: var(--radius-right);
 }
 
@@ -62,10 +62,10 @@
     background: linear-gradient(90deg, var(--purple), var(--transparent) 100%);
 }
 .sub-container-2.active-subheading h3 {
-    background: linear-gradient(90deg, var(--blue), var(--transparent) 100%);
+    background: linear-gradient(90deg, var(--purple), var(--transparent) 100%);
 }
 .sub-container-3.active-subheading h3 {
-    background: linear-gradient(90deg, var(--green), var(--transparent) 100%);
+    background: linear-gradient(90deg, var(--purple), var(--transparent) 100%);
 }
 
 .item.active {

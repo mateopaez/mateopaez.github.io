@@ -3,8 +3,8 @@
     position: fixed;
     display: flex;
     flex-direction: column;
+    left: 30%;
     top: 30%;
-    right: 15vw;
     align-items: flex-end;
 }
 
@@ -36,7 +36,7 @@
     background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
 }
 .skill-item.activeSkill:nth-child(2) {
-    background: linear-gradient(270deg, #ffffff00, var(--blue) 70%);
+    background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
 }
 
 .skill-icon {
@@ -103,8 +103,8 @@
     display: none;
   }
   .level-point {
-    width: 1.2rem;
-    height: 1rem;
+    width: 1.5rem;
+    height: 1.25rem;
     border-radius: 0.1rem;
   }
   .level-container {
@@ -124,7 +124,7 @@
   h2,
   h3,
   p {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .skill-menu {
     flex-direction: column;

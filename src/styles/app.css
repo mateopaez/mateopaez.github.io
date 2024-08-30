@@ -2,7 +2,7 @@
 
 body{
     font-family: "Russo One";
-    color: white;
+    color: #fffff0;
     -webkit-tap-highlight-color: transparent;  /* this is for mobile so the highlight color doesn't appear when tapped */
     background-color: #333;
 }

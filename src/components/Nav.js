@@ -74,7 +74,7 @@ export default function Nav() {
                 const linkRect = activeLink.getBoundingClientRect();
                 // Adjust center alignment with a manual left shift if need in translateX:
                 const centerOffset = (navRect.width / 2) - (linkRect.width / 2);
-                const translateX = (navRect.left + centerOffset - linkRect.left) - 160;
+                const translateX = (navRect.left + centerOffset - linkRect.left) - 177;
 
                 navElement.style.transform = `translateX(${translateX}px)`;
             }
