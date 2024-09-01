@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e86a7f1.css",
-    "main.js": "/static/js/main.ac04ce05.js",
+    "main.css": "/static/css/main.9796eaac.css",
+    "main.js": "/static/js/main.ad041620.js",
     "static/media/bg-universe.mp4": "/static/media/bg-universe.6ff0fa4e4c45c0bcc971.mp4",
     "static/media/fallback.png": "/static/media/fallback.571e8a19e9f7acd3de35.png",
     "static/media/gobbers.png": "/static/media/gobbers.2a796172e132aaf4b370.png",
     "static/media/avatar.png": "/static/media/avatar.b4c9662dbcd0d4414c45.png",
     "static/media/404project.png": "/static/media/404project.0ce4dbe4cf90f82eccc2.png",
-    "static/media/habitup.png": "/static/media/habitup.55e219238a2121bbb91a.png",
+    "static/media/habitup.png": "/static/media/habitup.a3b22159b3617dfb126f.png",
     "index.html": "/index.html",
-    "main.2e86a7f1.css.map": "/static/css/main.2e86a7f1.css.map",
-    "main.ac04ce05.js.map": "/static/js/main.ac04ce05.js.map"
+    "main.9796eaac.css.map": "/static/css/main.9796eaac.css.map",
+    "main.ad041620.js.map": "/static/js/main.ad041620.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e86a7f1.css",
-    "static/js/main.ac04ce05.js"
+    "static/css/main.9796eaac.css",
+    "static/js/main.ad041620.js"
   ]
 }
