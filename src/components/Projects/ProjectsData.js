@@ -9,11 +9,12 @@ const projects = {
     description: (
       <>
         <p>
-          REEEEEE GOBLIN
+          Small looter/stealth video game developed in RPG Maker MV, built using JavaScript. Member of a 5-person team where my primary roles where
+          level design and building, implementing mechanics using custom made plugins, and general quality assurance and bug testing.
         </p>
       </>
     ),
-    github: "https://github.com/Bathrobe-Studios/Bathrobe-Studios.github.io",
+    github: "https://Bathrobe-Studios.github.io",
     demo: "https://youtube.com/watch?v=H3yzrdtegsc",
   },
   2: {
@@ -22,12 +23,13 @@ const projects = {
     description: (
       <>
         <p>
-          lots of habit very swag very cool
+          Android personal wellness and social media application for aiding users in starting or maintaining consistent habit behaviour. Member of a 
+          6-person team where we applied SCRUM practices, developed in Android Studio IDE using Java and Firebase Realtime Database, and used Junit testing for quality assurance.
         </p>
       </>
     ),
     github: "https://github.com/CMPUT301F21T01/HabitUp",
-    demo: "https://lemonparty.org",
+    demo: "https://github.com/CMPUT301F21T01/HabitUp",
   },
   3: {
     title: "Social Distribution",
@@ -35,7 +37,8 @@ const projects = {
     description: (
       <>
         <p>
-          ew gross web dev group project
+          Blogging/Social Network platform where users can share posts and interact with their friends. Member of a 5-person team where we used Django 
+          REST framework for the backend and ReactJS for the frontend.
         </p>
       </>
     ),

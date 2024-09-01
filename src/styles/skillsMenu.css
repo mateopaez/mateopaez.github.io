@@ -67,25 +67,29 @@
 .skill-sub-container-2 {
   display: flex;
   justify-content: right;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .level-container {
   display: flex;
-  gap: 0.3rem;
+  gap: 0.5rem;
 }
 
 .level-point {
   width: 3rem;
   height: 2rem;
   border-radius: 0.2rem;
+  border-style: solid;
 }
 
 .filled {
-  background: linear-gradient(to top right, #144213, #04781b, #4aff43);
+  /* background: linear-gradient(to top right, #240f3c, #30134f, #6228a5); */
+  background-color: var(--purple);
+  border-color: transparent;
 }
 .unfilled {
-  background: linear-gradient(to bottom left, #ffffff, #658162, #3f6145);
+   /* background: linear-gradient(to bottom left, #ffffff, #658162, #3f6145); */
+   border-color: white;
 }
 
 .skill-sub-container {
@@ -103,12 +107,12 @@
     display: none;
   }
   .level-point {
-    width: 1.5rem;
-    height: 1.25rem;
+    width: 2rem;
+    height: 1.5rem;
     border-radius: 0.1rem;
   }
   .level-container {
-    gap: 0.15rem;
+    gap: 0.25rem;
   }
   .skill-sub-container-1,
   .skill-sub-container-2 {

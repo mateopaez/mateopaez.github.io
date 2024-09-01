@@ -112,6 +112,7 @@
     }
     .item {
       height: 2rem;
+      transform: translateX(-55%);
     }
   }
 
