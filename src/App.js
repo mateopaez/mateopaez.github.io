@@ -6,7 +6,7 @@ import About from "./components/About/About.js";
 import Skills from "./components/Skills/Skills.js";
 import Projects from "./components/Projects/Projects.js";
 import Resume from "./components/Resume.js";
-import Contact from "./components/Contact.js";
+import Contact from "./components/Contact/Contact.js";
 import "./styles/app.css";
 import PersonalStats from './components/PersonalStats.js';
 
