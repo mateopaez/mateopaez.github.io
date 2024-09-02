@@ -5,8 +5,8 @@ const subheadingData = {
             content: (
                 <>
                   <p>
-                    Hello World! <br/> I'm Mateo Paez, a developer based out of Edmonton. I have experience using Full-Stack technologies, mobile application developement,
-                    Front-End & game level design as well as programming in multiple video game engines.
+                    Hello World! <br/> I'm Mateo Paez, a developer based out of Edmonton. I have experience developing and using Full-Stack web technologies & mobile applications,
+                    programming video games in different engines, as well as Front-End & game level design.
                   </p>
                 </>
             ),
@@ -19,7 +19,7 @@ const subheadingData = {
             content: (
                 <>
                   <p>
-                   Graduated from the University of Alberta in December 2024 with a B.Sc. Specialization in Computer Science degree.
+                   Graduated from the University of Alberta with a B.Sc. Computer Science with Specialization degree.
                   </p>
                 </>
             ),
