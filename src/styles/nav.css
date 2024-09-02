@@ -46,6 +46,6 @@ a {
         width: 2rem;
     }
     .page-title {
-        display: none;
+        font-size: 0.6rem;
     }
 }

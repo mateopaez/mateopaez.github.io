@@ -37,8 +37,8 @@ const projects = {
     description: (
       <>
         <p>
-          Blogging/Social Network platform where users can share posts and interact with their friends. Member of a 5-person team where we used Django 
-          REST framework for the backend and ReactJS for the frontend.
+          Blogging/Social Network platform where users can share posts and interact with their friends. Member of a 5-person team where we used Python & Django 
+          REST framework for the backend, ReactJS for the frontend, and PostgreSQL for the database.
         </p>
       </>
     ),
