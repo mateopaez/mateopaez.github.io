@@ -31,7 +31,7 @@ const skills = {
             level: 5,
         },
         {
-            title: "Django REST",
+            title: "Django",
             level: 3,
         },
         {
@@ -40,7 +40,7 @@ const skills = {
         },
         {
             title: "Firebase",
-            level: 2,
+            level: 3,
         },
         {
             title: "MongoDB",
