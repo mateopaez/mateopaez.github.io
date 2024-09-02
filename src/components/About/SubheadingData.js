@@ -5,7 +5,7 @@ const subheadingData = {
             content: (
                 <>
                   <p>
-                    Hello World! <br/> I'm Mateo Paez, a developer based out of Edmonton. <br/> I have experience using Full-Stack technologies, mobile application developement,
+                    Hello World! <br/> I'm Mateo Paez, a developer based out of Edmonton. I have experience using Full-Stack technologies, mobile application developement,
                     Front-End & game level design as well as programming in multiple video game engines.
                   </p>
                 </>

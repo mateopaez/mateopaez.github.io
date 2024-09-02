@@ -24,7 +24,7 @@ const projects = {
       <>
         <p>
           Android personal wellness and social media application for aiding users in starting or maintaining consistent habit behaviour. Member of a 
-          6-person team where we applied SCRUM practices, developed in Android Studio IDE using Java and Firebase Realtime Database, and used Junit testing for quality assurance.
+          6-person team where we developed in Android Studio IDE using Java and Firebase Realtime Database, and used Junit testing for quality assurance.
         </p>
       </>
     ),
