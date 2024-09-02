@@ -108,14 +108,15 @@
       align-items: center;
     }
     .project-menu p {
-      font-size: 0.7rem;
+      font-size: 0.75rem;
     }
     .project-sub-container {
       margin-top: 1rem;
       width: 12rem;
     }
     .project-sub-container img {
-      width: 12rem;
+      width: 192px;
+      height: 121px;
     }
     .link-container a {
       margin-top: 0.5rem;

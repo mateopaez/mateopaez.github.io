@@ -36,7 +36,7 @@ a {
 
 @media (max-width: 1100px) {
     .nav {
-        top: calc(100vh - 8rem);
+        top: calc(100vh - 9.5rem);
         transform: translateX(-50%);
     }
     .nav-link {
