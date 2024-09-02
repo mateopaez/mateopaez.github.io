@@ -13,7 +13,7 @@
     font-weight: 300;
     padding: 3rem 8rem;
     background: black;
-    border: 1px solid var(--purple);
+    border: 1.5px solid var(--purple);
     border-radius: 20px;
     color: white;
     cursor: pointer;
