@@ -43,6 +43,7 @@
   }
   .project-item.activeProject:nth-child(3) {
     background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
+    width: 100%;
   }
   
   .project-sub-container {
@@ -91,7 +92,7 @@
       width: 100%;
     }
     .project-item.activeProject .title {
-      font-size: 1rem;
+      font-size: 0.93rem;
     }
     .title {
       font-size: 0.8rem;
