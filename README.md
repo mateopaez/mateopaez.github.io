@@ -1,5 +1,7 @@
 # Mateo Paez's Website
 
+[![Mateo's Website](src/assets/GithubPreview.png)](https://mateopaez.site/)
+
 This is my personal portfolio website made in React. Visit at at [mateopaez.site](https://mateopaez.site/).
 
 # Website Theme & Ideas
