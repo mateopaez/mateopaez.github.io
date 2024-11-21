@@ -1,4 +1,4 @@
-# Mateo Paez's Website
+# Mateo's Website
 
 [![Mateo's Website](src/assets/GithubPreview.png)](https://mateopaez.site/)
 
