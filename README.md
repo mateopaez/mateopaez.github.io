@@ -1,8 +1,8 @@
 # Mateo's Website
 
-[![Mateo's Website](src/assets/GithubPreview.png)](https://mateopaez.site/)
+[![Mateo's Website](src/assets/GithubPreview.png)](https://mateopaez.github.io/)
 
-This is my personal portfolio website made in React. Visit at at [mateopaez.site](https://mateopaez.site/).
+This is the *original* personal portfolio website that I made in React. Visit at at [mateopaez.github.io](https://mateopaez.github.io/).
 
 # Website Theme & Ideas
 
